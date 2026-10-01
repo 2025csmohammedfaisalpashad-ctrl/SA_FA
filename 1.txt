@@ -1,0 +1,18 @@
+Merge vs Rebase
+
+A developer has completed a feature on feature-version , while main has receieved new commits from from another 
+developer . The team wants the feature branch to contain the latest main changes and maintain a linear commit 
+history before the feature is merged 
+
+Scenario: 
+perform the following:
+
+1. Create commits on both main and feature-version so that the branches diverge
+
+2. Rebase feature-version onto main
+
+3. if a conflict occurs reolve it and continue the rebase
+
+4. Display the commit graph before and after rebase
+
+5. Merge the rebased feature branch into main
